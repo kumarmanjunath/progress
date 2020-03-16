@@ -18,8 +18,7 @@ const productList = [
   {
     id: 3,
     productName: "Martin Raff",
-    imgUrl:
-      "",
+    imgUrl: "",
     expierence: "15 Years"
   },
   {
@@ -66,6 +65,5 @@ const productList = [
 
 export default productList;
 
-
-https://images.unsplash.com/photo-1576670158386-6fb29d77b2ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=383&q=80",
-about: "Retired German Scientist
+// https://images.unsplash.com/photo-1576670158386-6fb29d77b2ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=383&q=80",
+// about: "Retired German Scientist"
