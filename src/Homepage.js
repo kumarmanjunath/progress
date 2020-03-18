@@ -32,13 +32,13 @@ function Homepage() {
         </div>
       </header>
 
-      <section className='page-section portfolio' id='portfolio'>
+      <section className='page-section portfolio bg-dark' id='portfolio'>
         <div className='container'>
-          <h2 className='page-section-heading text-center text-uppercase text-secondary mb-0'>
+          <h2 className='page-section-heading text-center text-uppercase text-light mb-0'>
             Portfolio
           </h2>
 
-          <div className='divider-custom'>
+          <div className='divider-custom divider-light'>
             <div className='divider-custom-line'></div>
             <div className='divider-custom-icon'>
               <i className='fa fa-star'></i>
@@ -182,13 +182,13 @@ function Homepage() {
           </div>
         </div>
       </section>
-      <section className='page-section' id='contact'>
+      <section className='page-section bg-dark text-white mb-0' id='contact'>
         <div className='container'>
-          <h2 className='page-section-heading text-center text-uppercase text-secondary mb-0'>
+          <h2 className='page-section-heading text-center text-uppercase text-white mb-0'>
             Contact Me
           </h2>
 
-          <div className='divider-custom'>
+          <div className='divider-custom divider-light'>
             <div className='divider-custom-line'></div>
             <div className='divider-custom-icon'>
               <i className='fa fa-star'></i>

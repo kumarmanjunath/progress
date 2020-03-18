@@ -8,10 +8,12 @@ function Product(props) {
   return (
     <div style={typography}>
       <img src={props.product.imgUrl} alt='Product' />
-      <h1>{props.product.productName}</h1>
-      <h3>{props.product.about}</h3>
-      <h4>{props.product.expierence} Expierence</h4>
-      <button>Choose Me</button>
+      <p>{props.product.productName}</p>
+      <h6>{props.product.about}</h6>
+      <h6>{props.product.expierence} Expierence</h6>
+      <button type='button' class='btn btn-danger'>
+        Connect
+      </button>
     </div>
   );
 }
