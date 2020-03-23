@@ -24,9 +24,9 @@ class App extends React.Component {
         <div className='container'>
           <h1>Mentors</h1>
           <div className='row '>
-            <div class='card shadow' style={{ width: "90rem" }}>
+            <div class='card shadow' style={{ width: "750rem" }}>
               <div className='row'>
-                <div className='column card1'>
+                <div className='col-md-12'>
                   <div className='products'>{productItem}</div>
                 </div>
               </div>
@@ -42,13 +42,28 @@ export default App;
 
 {
   /* <div className='container'>
-<div class='row'>
-  <div class='col-sm-6 col-md-4 col-lg-3 mt-4'>
-    <div class='card'>
-      <h1>Mentors</h1>
-      <div className='products'>{productItem}</div>
-    </div>
+ <div class='row'>
+ <div class='col-sm-6 col-md-4 col-lg-3 mt-4'>
+   <div class='card'>
+    <h1>Mentors</h1>
+     <div className='products'>{productItem}</div>
+   </div>
   </div>
 </div>
-</div> */
+</div>  */
+}
+
+{
+  // <div className='container'>
+  //   <h1>Mentors</h1>
+  //   <div className='row '>
+  //     <div class='card shadow' style={{ width: "750rem" }}>
+  //       <div className='row'>
+  //         <div className='col-md-12'>
+  //           <div className='products'>{productItem}</div>
+  //         </div>
+  //       </div>
+  //     </div>
+  //   </div>
+  // </div>;
 }

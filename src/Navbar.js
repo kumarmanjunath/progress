@@ -48,21 +48,33 @@ export default function Navbar() {
                   Contact
                 </a>
               </li>
-              <li className='nav-item mx-0 mx-lg-1'>
-                <a
-                  className='nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger'
-                  href='/login'
-                >
-                  Login
-                </a>
-              </li>
-              <li className='nav-item mx-0 mx-lg-1'>
-                <a
-                  className='nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger'
-                  href='/register'
-                >
-                  Register
-                </a>
+
+              <li>
+                <div class='dropdown'>
+                  <a
+                    class='btn btn-primary dropdown-toggle'
+                    href='#'
+                    role='button'
+                    id='dropdownMenuLink'
+                    data-toggle='dropdown'
+                    aria-haspopup='true'
+                    aria-expanded='false'
+                  >
+                    Login
+                  </a>
+
+                  <div
+                    class='dropdown-menu btn btn-success'
+                    aria-labelledby='dropdownMenuLink'
+                  >
+                    <a class='dropdown-item' href='/mlogin'>
+                      Mentors
+                    </a>
+                    <a class='dropdown-item' href='/login'>
+                      Student
+                    </a>
+                  </div>
+                </div>
               </li>
             </ul>
           </div>

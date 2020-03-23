@@ -58,7 +58,7 @@ class login extends Component {
 
             <div className='register'>
               Don't have an account yet?
-              <a href='/register'>
+              <a href='/mregister'>
                 <button id='register-link'>Register here</button>
               </a>
             </div>
