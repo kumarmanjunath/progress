@@ -1,7 +1,7 @@
 const jwt = require("jsonwebtoken");
 const config = require("config");
 
-module.exports = function(req, res, next) {
+module.exports = function (req, res, next) {
   // Get token from header
   const token = req.header("x-auth-token");
 
@@ -18,4 +18,17 @@ module.exports = function(req, res, next) {
   } catch (err) {
     res.status(401).json({ msg: "Token is not valid" });
   }
+};
+exports.authorize = (...roles) => {
+  return (req, res, next) => {
+    if (!roles.includes(req.user.role)) {
+      return next(
+        new ErrorResponse(
+          `User role ${req.user.role} is not authorized to access this route`,
+          403
+        )
+      );
+    }
+    next();
+  };
 };
