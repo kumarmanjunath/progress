@@ -17,6 +17,7 @@ import Detailedpage from "./Detailedpage";
 import MDetailedpage from "./mentors/MDetailedpage";
 import Detailedpagecss from "./Detailedpage.css";
 import MDetailedpagecss from "./mentors/MDetailedpage.css";
+// mzgvjvhd
 
 function App() {
   return (
